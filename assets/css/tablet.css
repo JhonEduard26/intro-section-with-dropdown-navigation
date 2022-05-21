@@ -28,7 +28,7 @@ nav {
   row-gap: 0;
   column-gap: 28px;
   margin: 0;
-  padding-left: 64px;
+  padding-left: 56px;
 }
 .nav__item {
   position: relative;
