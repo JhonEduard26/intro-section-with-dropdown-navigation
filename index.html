@@ -11,9 +11,74 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="./assets/css/tablet.css" />
     <title>Intro section with dropdown navigation</title>
   </head>
   <body>
+    <header>
+      <figure>
+        <img class="logo" src="./assets/icons/logo.svg" alt="logo" />
+      </figure>
+      <figure>
+        <img class="icon-menu" src="./assets/icons/icon-menu.svg" alt="open menu" />
+      </figure>
+      <div class="menu__container">
+        <nav>
+          <figure class="icon-close__container">
+            <img class="icon-close" src="./assets/icons/icon-close-menu.svg" alt="close menu" />
+          </figure>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link toggle-arrow">Features</a>
+              <img class="arrow-down" src="./assets/icons/icon-arrow-down.svg" alt="" />
+              <ul class="nav__list--inner">
+                <li class="nav__item--inner">
+                  <img class="icon-inner" src="./assets/icons/icon-todo.svg" alt="" />
+                  <a href="#" class="nav__link">Todo List</a>
+                </li>
+                <li class="nav__item--inner">
+                  <img class="icon-inner" src="./assets/icons/icon-calendar.svg" alt="" />
+                  <a href="#" class="nav__link">Calendar</a>
+                </li>
+                <li class="nav__item--inner">
+                  <img class="icon-inner" src="./assets/icons/icon-reminders.svg" alt="" />
+                  <a href="#" class="nav__link">Reminders</a>
+                </li>
+                <li class="nav__item--inner">
+                  <img class="icon-inner" src="./assets/icons/icon-planning.svg" alt="" />
+                  <a href="#" class="nav__link">Planning</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link toggle-arrow">Company</a>
+              <img class="arrow-down" src="./assets/icons/icon-arrow-down.svg" alt="" />
+              <ul class="nav__list--inner list--inner-second">
+                <li class="nav__item--inner-two">
+                  <a href="#" class="nav__link">History</a>
+                </li>
+                <li class="nav__item--inner-two">
+                  <a href="#" class="nav__link">Our team</a>
+                </li>
+                <li class="nav__item--inner-two">
+                  <a href="#" class="nav__link">Blog</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item"><a href="#" class="nav__link">Careers</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+          </ul>
+          <ul class="nav__list nav__list--bottom">
+            <li>
+              <a class="nav__link" href="#">Login</a>
+            </li>
+            <li>
+              <a class="nav__link button" href="#">Register</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
