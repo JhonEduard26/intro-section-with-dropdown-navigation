@@ -52,3 +52,34 @@ nav {
 .button {
   width: 92px;
 }
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  column-gap: 24px;
+  width: 82%;
+  height: 76vh;
+  margin: 0 auto;
+  margin-top: 28px;
+}
+.section__img-container {
+  grid-column: 2 / 3;
+  margin-bottom: 0;
+}
+.section__img {
+  max-width: 312px;
+}
+.main-section {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  justify-items: start;
+  row-gap: 12px;
+  padding-left: 48px;
+}
+.main__title {
+  font-size: var(--big-font-size);
+  text-align: start;
+}
+.main__description {
+  text-align: start;
+}

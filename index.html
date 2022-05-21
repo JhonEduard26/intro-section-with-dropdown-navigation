@@ -82,7 +82,10 @@
     </header>
     <main>
       <figure class="section__img-container">
-        <img class="section__img" src="./assets/imgs/image-hero-mobile.png" alt="" />
+        <picture>
+          <source media="(min-width: 768px)" srcset="./assets/imgs/image-hero-desktop.png" />
+          <img class="section__img" src="./assets/imgs/image-hero-mobile.png" alt="" />
+        </picture>
       </figure>
       <section class="main-section">
         <h1 class="main__title">Make remote work</h1>
