@@ -22,12 +22,14 @@ Users should be able to:
 
 ### Screenshots
 
-![](./screenshot.jpg)
+![mobile](./assets/screenshots/mobile.jpg)
+![mobile-menu-active](./assets/screenshots/mobile-menu-active.jpeg)
+![desktop](./assets/screenshots/desktop.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/JhonEduard26/intro-section-with-dropdown-navigation)
+- Live Site URL: [GitHub Pages](https://jhoneduard26.github.io/intro-section-with-dropdown-navigation/)
 
 ## My process
 
@@ -41,6 +43,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Jhon Eduard Bocanegra](https://github.com/JhonEduard26)
+- Frontend Mentor - [@JhonEduard26](https://www.frontendmentor.io/profile/JhonEduard26)
+- Twitter - [@JhonBocanegra26](https://twitter.com/JhonBocanegra26)
